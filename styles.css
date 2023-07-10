@@ -1,0 +1,55 @@
+* {
+    margin: 1%;
+    padding: 1%;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-container > div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+    text-align: center;
+}
+
+.flex-container > .box-two {
+    flex: 2 1 0%;
+}
+
+.flex-container-shrink {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-shrink > div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.flex-container-shrink > .box-two-shrink {
+    flex-shrink: 0;
+}
+
+.challenge-container {
+    display: flex;
+}
+
+.challenge-container > div {
+    background: peachpuff;
+    border: 4px solid brown;
+    width: 150px;
+    text-align: center;
+}
+
+.challenge-home {
+    flex: 2;
+}
+.challenge-logout {
+    flex: 2;
+}
